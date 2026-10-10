@@ -125,6 +125,16 @@ export const CommandPaletteModal: React.FC<CommandPaletteModalProps> = ({
                 <span className="material-symbols-outlined text-[16px]">webhook</span>
                 API &amp; Webhooks
               </button>
+              <button
+                onClick={() => {
+                  window.open('https://ais-dev-srot7ni4oa36ptbhaapcon-290513239528.us-east5.run.app', '_blank');
+                  onClose();
+                }}
+                className="text-left px-3 py-1.5 rounded hover:bg-[#f1f4f9] text-xs font-mono text-[#00628c] font-semibold flex items-center gap-2 col-span-2 border border-[#00628c]/20 bg-[#00628c]/5"
+              >
+                <span className="material-symbols-outlined text-[16px]">menu_book</span>
+                Open Deployed App &amp; Project README
+              </button>
             </div>
           </div>
         </div>
