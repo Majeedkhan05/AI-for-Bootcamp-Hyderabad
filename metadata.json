@@ -1,0 +1,6 @@
+{
+  "name": "ExtractVideo.ai",
+  "description": "High-spec developer instrumentation for extracting structured technical Markdown, LaTeX math proofs, and code from ML systems lectures and engineering talks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
